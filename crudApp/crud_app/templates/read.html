@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Create Record</title>
+</head>
+<body>
+    <h1>Read Record</h1>
+    <h1>Read Data</h1>
+    {% for name, data_entry in data.items %}
+        <p><strong>Name:</strong> {{ name }}</p>
+        <p><strong>Age:</strong> {{ data_entry.age }}</p>
+        <p><strong>City:</strong> {{ data_entry.city }}</p>
+        <hr>
+    {% endfor %}
+    </form>
+</body>
+</html>
